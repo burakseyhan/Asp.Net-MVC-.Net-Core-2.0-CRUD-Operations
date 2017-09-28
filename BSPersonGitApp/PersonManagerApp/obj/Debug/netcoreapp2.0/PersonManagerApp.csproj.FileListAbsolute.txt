@@ -1,0 +1,11 @@
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\bin\Debug\netcoreapp2.0\PersonManagerApp.deps.json
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\bin\Debug\netcoreapp2.0\PersonManagerApp.runtimeconfig.json
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\bin\Debug\netcoreapp2.0\PersonManagerApp.runtimeconfig.dev.json
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\bin\Debug\netcoreapp2.0\PersonManagerApp.dll
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\obj\Debug\netcoreapp2.0\PersonManagerApp.csprojResolveAssemblyReference.cache
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\obj\Debug\netcoreapp2.0\PersonManagerApp.csproj.CoreCompileInputs.cache
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\obj\Debug\netcoreapp2.0\PersonManagerApp.AssemblyInfoInputs.cache
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\obj\Debug\netcoreapp2.0\PersonManagerApp.AssemblyInfo.cs
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\bin\Debug\netcoreapp2.0\PersonManagerApp.pdb
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\obj\Debug\netcoreapp2.0\PersonManagerApp.dll
+C:\Users\burak.seyhan\Desktop\BSPersonGitApp\PersonManagerApp\obj\Debug\netcoreapp2.0\PersonManagerApp.pdb

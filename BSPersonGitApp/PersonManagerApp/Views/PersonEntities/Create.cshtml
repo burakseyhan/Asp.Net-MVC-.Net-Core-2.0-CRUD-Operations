@@ -1,0 +1,51 @@
+﻿@model PersonManagerApp.Model.PersonEntity
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<hr />
+<hr />
+
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("CreatePerson", "PersonEntities", FormMethod.Post))
+            {
+            <div class="form-group">
+                @Html.LabelFor(x => x.FirstName)
+                @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" })
+            </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.LastName)
+                    @Html.TextBoxFor(x => x.LastName, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Title)
+                    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Age)
+                    @Html.TextBoxFor(x => x.Age, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.City)
+                    @Html.TextBoxFor(x => x.City, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.PostCode)
+                    @Html.TextBoxFor(x => x.PostCode, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" />
+                </div>
+        }
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Back To List", "Index")
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
